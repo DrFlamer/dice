@@ -1,5 +1,5 @@
 let szám = 0
-input.onGesture(Gesture.Shake, function () {
+input.onButtonPressed(Button.A, function () {
     szám = randint(1, 250)
     basic.showNumber(szám)
     if (szám > 77 && szám < 177) {
